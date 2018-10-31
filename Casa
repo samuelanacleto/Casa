@@ -1,0 +1,35 @@
+public class Home {
+    public String nome;
+    public String idade;
+    public String sexo;
+    public String peso;
+    public String id;
+    public String senha;
+    public boolean permissao=false;
+   
+    Home (String nome,String idade, String sexo,String peso,String id,String senha){
+    this.nome=nome;
+    this.idade=idade;
+    this.peso=peso;
+    this.sexo=sexo;
+    this.id=id;
+    this.senha=senha;
+    }
+
+public void permitido(){ 
+    permissao=true;}
+
+public void naoPermitido(){
+    permissao=false;}
+
+public boolean estadoPermissao(){ 
+    return permissao; }
+
+public void relatorio (){
+System.out.println("nome:" +nome);
+System.out.println("idade:" +idade );
+System.out.println("sexo: " +sexo);
+System.out.println("peso:" +peso);
+System.out.println("---------------------------");
+ 
+}}
