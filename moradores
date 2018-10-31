@@ -1,0 +1,35 @@
+public class moradores {
+    public static void main(String[] args) {
+
+
+    Home s1 = new Home ("Samuel","20 anos","masc","62.0","sar","097093");
+    s1.permitido();
+    Home r1 = new Home ("Rosa","43 anos","fem","53.00","rar","097093");
+    r1.permitido();
+    Home m1 = new Home ("Marielly","17 anos","fem","53.00","mar","097093");
+    m1.permitido();
+    Home e1 = new Home ("Esmael","48 anos","masc","53.00","efr","097093");
+    e1.permitido();
+    
+    
+if (s1==s1){
+    System.out.println ("acesso permitido:");
+    s1.relatorio();}
+else if (s1==s1){
+    System.out.println ("acesso negado:");}
+if (r1==r1){
+    System.out.println ("acesso permitido:");
+    r1.relatorio();}
+else if (r1==r1){
+    System.out.println ("acesso negado:");}
+if (m1==m1){
+    System.out.println ("acesso permitido:");
+    m1.relatorio();}
+else if (m1==m1){
+    System.out.println ("acesso negado:");}
+if (e1==e1){
+    System.out.println ("acesso permitido:");
+    e1.relatorio();}
+else if (e1==e1){
+    System.out.println ("acesso negado:");}
+}}
